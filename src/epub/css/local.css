@@ -12,8 +12,20 @@ blockquote cite{
 	font-variant: small-caps;
 }
 
+section > header{
+	text-align: center;
+	hyphens: none;
+}
+
 .conclusion{
 	font-style: italic;
+}
+
+section > header [epub|type~="epigraph"]{
+	margin: 3em;
+	margin-top: 0;
+	text-align: left;
+	display: inline-block;
 }
 
 [epub|type~="z3998:poem"] p,

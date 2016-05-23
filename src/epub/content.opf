@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="cc: http://creativecommons.org/ns, se: http://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/rudyard-kipling/the-jungle-book</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:edition-number">0</meta>
+		<dc:date>2016-05-23T02:27:31Z</dc:date>
+		<meta property="dcterms:modified">2016-05-23T02:27:31Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -37,17 +37,19 @@
 		<meta property="meta-auth" refines="#subject-8">https://www.gutenberg.org/ebooks/35997</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Seven fable-like tales about jungle animals in India and the humans who live on the edges of their realm.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Jungle Book&lt;/i&gt; is a short collection of stories published by Kipling in various magazines between 1893 and 1894.  Kipling spent both his early years and his late teenage years in India, and that upbringing is front and center in these stories&amp;mdash;despite them being written while he was living in Vermont, in the United States.&lt;/p&gt;
+			&lt;p&gt;The stories are fable-like, with most of them centering on the lives of anthropomorphised jungle animals and a few focused on human characters in India.  The stories were popular from the start, and have since been adapted in countless ways in print, screen, and other media.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/35997</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000591672</dc:source>
-		<meta property="se:word-count">51553</meta>
-		<meta property="se:reading-ease.flesch">78.08</meta>
+		<meta property="se:production-notes">Kipling uses [] to indicate inline translations.  There was some debate on whether to pop out those out into footnotes.  For now we will leave them as-is, as including footnotes would detract from the children's-fable-like aspect of these stories.  An additional translation not in brackets (since it's not inline in dialog) is in her-majestys-servants.xhtml: "(It is an order)"</meta>
+		<meta property="se:word-count">51552</meta>
+		<meta property="se:reading-ease.flesch">78.18</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Jungle_Book</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/rudyard-kipling_the-jungle-book</meta>
 		<dc:creator id="author">Rudyard Kipling</dc:creator>
@@ -114,5 +116,4 @@
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
-
 </package>

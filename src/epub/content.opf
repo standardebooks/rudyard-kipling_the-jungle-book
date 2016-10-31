@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/rudyard-kipling/the-jungle-book</dc:identifier>
 		<dc:date>2016-05-23T02:27:31Z</dc:date>
-		<meta property="dcterms:modified">2016-08-24T01:59:36Z</meta>
-		<meta property="se:revision-number">2</meta>
+		<meta property="dcterms:modified">2016-10-31T20:12:19Z</meta>
+		<meta property="se:revision-number">3</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -40,7 +40,7 @@
 		<dc:description id="description">Seven fable-like tales about jungle animals in India and the humans who live on the edges of their realm.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Jungle Book&lt;/i&gt; is a short collection of stories published by Kipling in various magazines between 1893 and 1894.  Kipling spent both his early years and his late teenage years in India, and that upbringing is front and center in these stories&amp;mdash;despite them being written while he was living in Vermont, in the United States.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Jungle Book&lt;/i&gt; is a short collection of stories published by Kipling in various magazines between 1893 and 1894.  Kipling spent both his early years and his late teenage years in India, and that upbringing is front and center in these stories—despite them being written while he was living in Vermont, in the United States.&lt;/p&gt;
 			&lt;p&gt;The stories are fable-like, with most of them centering on the lives of anthropomorphised jungle animals and a few focused on human characters in India.  The stories were popular from the start, and have since been adapted in countless ways in print, screen, and other media.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>

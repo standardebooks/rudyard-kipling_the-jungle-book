@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/rudyard-kipling/the-jungle-book</dc:identifier>
 		<dc:date>2016-05-23T02:27:31Z</dc:date>
-		<meta property="dcterms:modified">2017-03-09T17:32:01Z</meta>
-		<meta property="se:revision-number">5</meta>
+		<meta property="dcterms:modified">2017-03-23T05:06:19Z</meta>
+		<meta property="se:revision-number">6</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -48,7 +48,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/35997</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000591672</dc:source>
 		<meta property="se:production-notes">Kipling uses [] to indicate inline translations.  There was some debate on whether to pop out those out into footnotes.  For now we will leave them as-is, as including footnotes would detract from the children's-fable-like aspect of these stories.  An additional translation not in brackets (since it's not inline in dialog) is in her-majestys-servants.xhtml: "(It is an order)"</meta>
-		<meta property="se:word-count">51552</meta>
+		<meta property="se:word-count">51555</meta>
 		<meta property="se:reading-ease.flesch">78.18</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Jungle_Book</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/rudyard-kipling_the-jungle-book</meta>

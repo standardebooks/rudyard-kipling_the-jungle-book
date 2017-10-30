@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/rudyard-kipling/the-jungle-book</dc:identifier>
 		<dc:date>2016-05-23T02:27:31Z</dc:date>
-		<meta property="dcterms:modified">2017-10-19T03:33:32Z</meta>
-		<meta property="se:revision-number">19</meta>
+		<meta property="dcterms:modified">2017-10-30T22:46:56Z</meta>
+		<meta property="se:revision-number">20</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -90,6 +90,7 @@
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/epigraph.xhtml" id="epigraph.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/her-majestys-servants.xhtml" id="her-majestys-servants.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/kaas-hunting.xhtml" id="kaas-hunting.xhtml" media-type="application/xhtml+xml"/>
@@ -105,6 +106,7 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="epigraph.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="mowglis-brothers.xhtml"/>
 		<itemref idref="kaas-hunting.xhtml"/>
 		<itemref idref="tiger-tiger.xhtml"/>

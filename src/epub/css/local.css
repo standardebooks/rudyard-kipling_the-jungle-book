@@ -17,6 +17,10 @@ section > header{
 	hyphens: none;
 }
 
+[epub|type~="subchapter"] header{
+	font-variant: small-caps;
+}
+
 .conclusion{
 	font-style: italic;
 }

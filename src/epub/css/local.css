@@ -6,30 +6,21 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-blockquote cite{
-	margin-top: 1em;
-	font-style: normal;
+section[epub|type~="subchapter"] header{
 	font-variant: small-caps;
+	margin-top: 3em;
 }
 
-section > header{
+[epub|type~="z3998:song"] header p{
 	text-align: center;
-	hyphens: none;
 }
 
-[epub|type~="subchapter"] header{
-	font-variant: small-caps;
+section[epub|type~="subchapter"] header + *{
+	margin-top: 1em;
 }
 
-.conclusion{
+#kaas-hunting [epub|type~="z3998:song"] p:last-child{
 	font-style: italic;
-}
-
-section > header [epub|type~="epigraph"]{
-	margin: 3em;
-	margin-top: 0;
-	text-align: left;
-	display: inline-block;
 }
 
 [epub|type~="z3998:poem"] p,
@@ -69,3 +60,65 @@ p span.i2{
 	text-indent: -1em;
 	padding-left: 3em;
 }
+
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+}
+
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+/* End all epigraphs */
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
+/* Full-page epigraphs */
+section[epub|type~="epigraph"]{
+	text-align: center;
+}
+
+section[epub|type~="epigraph"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: flex){
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
+}
+/* End full-page epigraphs */

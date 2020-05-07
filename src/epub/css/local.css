@@ -1,26 +1,32 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
-section[epub|type~="subchapter"] header{
+blockquote header{
 	font-variant: small-caps;
 	margin-top: 3em;
 }
 
-[epub|type~="z3998:song"] header p{
+blockquote[epub|type] header p{
 	text-align: center;
+	text-indent: 0;
 }
 
-section[epub|type~="subchapter"] header + *{
+blockquote[epub|type] header p + p{
+	margin-top: 0;
+}
+
+blockquote header + *{
 	margin-top: 1em;
 }
 
-#kaas-hunting [epub|type~="z3998:song"] p:last-child{
+#kaas-hunting [epub|type~="z3998:song"] > p:last-child{
 	font-style: italic;
+}
+
+#the-white-seal blockquote header p + p{
+	font-variant: normal;
+	margin-top: 1em;
+	text-align: left;
 }
 
 [epub|type~="z3998:poem"] p,

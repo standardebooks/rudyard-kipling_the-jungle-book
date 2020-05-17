@@ -57,7 +57,7 @@
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">Seven fable-like tales about jungle animals in India and the humans who live on the edges of their realm.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Jungle Book&lt;/i&gt; is a short collection of stories published by Kipling in various magazines between 1893 and 1894. Kipling spent both his early years and his late teenage years in India, and that upbringing is front and center in these stories—despite them being written while he was living in Vermont, in the United States.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Jungle Book&lt;/i&gt; is a short collection of stories published by &lt;a href="https://standardebooks.org/ebooks/rudyard-kipling"&gt;Kipling&lt;/a&gt; in various magazines between 1893 and 1894. Kipling spent both his early years and his late teenage years in India, and that upbringing is front and center in these stories—despite them being written while he was living in Vermont, in the United States.&lt;/p&gt;
 			&lt;p&gt;The stories are fable-like, with most of them centering on the lives of anthropomorphised jungle animals and a few focused on human characters in India. The stories were popular from the start, and have since been adapted in countless ways in print, screen, and other media.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>

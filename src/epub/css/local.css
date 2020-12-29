@@ -26,12 +26,12 @@ blockquote header + *{
 #the-white-seal blockquote header p + p{
 	font-variant: normal;
 	margin-top: 1em;
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -85,7 +85,7 @@ section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: table){
@@ -105,7 +105,7 @@ section[epub|type~="epigraph"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: flex){

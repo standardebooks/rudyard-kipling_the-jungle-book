@@ -69,6 +69,7 @@ p span.i2{
 	-epub-hyphens: none;
 }
 
+[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }

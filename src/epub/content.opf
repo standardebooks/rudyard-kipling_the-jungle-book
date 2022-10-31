@@ -60,6 +60,9 @@
 		<meta property="group-position" refines="#collection-1">48</meta>
 		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
+		<meta id="collection-3" property="belongs-to-collection">Jungle Book</meta>
+		<meta property="collection-type" refines="#collection-3">series</meta>
+		<meta property="group-position" refines="#collection-3">1</meta>
 		<dc:description id="description">Seven fable-like tales about jungle animals in India and the humans who live on the edges of their realm.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Jungle Book&lt;/i&gt; is a short collection of stories published by &lt;a href="https://standardebooks.org/ebooks/rudyard-kipling"&gt;Kipling&lt;/a&gt; in various magazines between 1893 and 1894. Kipling spent both his early years and his late teenage years in India, and that upbringing is front and center in these stories—despite them being written while he was living in Vermont, in the United States.&lt;/p&gt;

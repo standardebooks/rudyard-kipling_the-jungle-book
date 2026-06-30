@@ -1,0 +1,1 @@
+Kipling uses [] to indicate inline translations. There was some debate on whether to pop out those out into footnotes. For now we will leave them as-is, as including footnotes would detract from the children's-fable-like aspect of these stories. An additional translation not in brackets (since it's not inline in dialog) is in her-majestys-servants.xhtml: "(It is an order)"

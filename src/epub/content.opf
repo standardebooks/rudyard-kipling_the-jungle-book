@@ -62,7 +62,7 @@
 		<meta property="group-position" refines="#collection-1">48</meta>
 		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
+		<meta id="collection-2-entry-1" property="schema:hasPart" refines="#collection-2">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-2-entry-1">Mowgli’s Brothers</meta>
 		<meta property="schema:abstract">Seven fable-like tales about jungle animals in India and the humans who live on the edges of their realm.</meta>
@@ -93,7 +93,7 @@
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Ernest Schaal</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Schall, Ernest</meta>
+		<meta property="file-as" refines="#transcriber-2">Schaal, Ernest</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
